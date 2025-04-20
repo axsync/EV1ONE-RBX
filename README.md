@@ -12,6 +12,18 @@
 - Virtual detachment mode
 
 ## Initialization
+Add the reference to your project and append this at the top of your code
+
+```csharp
+using EV1ONE;
+```
+
+Call this before using any methods, on Form Load or after InitializeComponent()
+
+```csharp
+Main.Initialize();
+```
+
 The API loads and initializes the `EV1ONE.dll` wrapper with optional console output.
 
 ```csharp
