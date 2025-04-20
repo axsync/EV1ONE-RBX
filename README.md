@@ -1,7 +1,7 @@
-# EV1ONE-RBX API Documentation
-# Written by ChatGPT - Im lazy ok?
+# EV1ONE API Documentation
+**Written by ChatGPT - Im lazy ok?**
 
-**EV1ONE-RBX** is an advanced wrapper around the Xeno executor framework, designed for interfacing with Roblox client processes. This API is built for automation, client management, and script execution with robust version control and attachment routines.
+**EV1ONE** is an advanced wrapper around the Xeno executor framework, designed for interfacing with Roblox client processes. This API is built for automation, client management, and script execution with robust version control and attachment routines.
 
 ## Features
 - Remote script execution
@@ -83,4 +83,3 @@ string ver = API.GetAPIVersion();
 
 ## License
 MIT License - Refer to `LICENSE` file.
-
