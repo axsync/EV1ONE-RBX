@@ -94,4 +94,5 @@ string ver = API.GetAPIVersion();
 - .NET Framework 4.8
 
 ## License
+**Protected under EV1ONE License**
 **TAMPERING IS NOT ALLOWED | YOU CAN SKID BUT GIVE CREDITS**
