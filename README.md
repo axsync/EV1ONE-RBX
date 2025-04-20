@@ -1,4 +1,5 @@
 # EV1ONE-RBX API Documentation
+# Written by ChatGPT - Im lazy ok?
 
 **EV1ONE-RBX** is an advanced wrapper around the Xeno executor framework, designed for interfacing with Roblox client processes. This API is built for automation, client management, and script execution with robust version control and attachment routines.
 
@@ -18,18 +19,6 @@ API.AttachAPI(bool console = false);
 ```
 
 This checks for required files, downloads missing components, validates version integrity, and performs the attach routine if everything is valid.
-
-## Script Execution
-Automatically hijacks the `identifyexecutor()` method to report as EV1ONE.
-
-```csharp
-API.Execute("print('hello world')");
-```
-
-Prepends the following Lua to all scripts:
-```lua
-identifyexecutor = function() return "EV1ONE v1.0" end
-```
 
 ## Client Management
 ### List attached clients:
@@ -90,9 +79,7 @@ string ver = API.GetAPIVersion();
 ```
 
 ## Build Requirements
-- .NET Framework 4.7.2 or newer
-- Newtonsoft.Json
-- Visual Studio or MSBuild
+- .NET Framework 4.8
 
 ## License
 MIT License - Refer to `LICENSE` file.
