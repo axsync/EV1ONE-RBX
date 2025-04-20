@@ -94,4 +94,4 @@ string ver = API.GetAPIVersion();
 - .NET Framework 4.8
 
 ## License
-**NO SKIDDING**
+**TAMPERING IS NOT ALLOWED | YOU CAN SKID BUT GIVE CREDITS**
