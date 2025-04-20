@@ -48,6 +48,9 @@ bool status = API.IsAttached();
 API.Detach();
 API.DetachVirtually();
 ```
+```csharp
+API.DetachVirtually();
+```
 
 ### Get current client PID:
 ```csharp
