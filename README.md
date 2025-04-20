@@ -46,10 +46,6 @@ bool status = API.IsAttached();
 ### Detach from Roblox:
 ```csharp
 API.Detach();
-API.DetachVirtually();
-```
-```csharp
-API.DetachVirtually();
 ```
 
 ### Get current client PID:
