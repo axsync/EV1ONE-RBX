@@ -94,4 +94,4 @@ string ver = API.GetAPIVersion();
 - .NET Framework 4.8
 
 ## License
-MIT License - Refer to `LICENSE` file.
+**NO SKIDDING**
