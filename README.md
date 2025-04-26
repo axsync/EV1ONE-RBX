@@ -8,7 +8,7 @@
 - Client process discovery
 - Automatic update and dependency management
 - Process attachment with focus control
-- Version hijack for `identifyexecutor()`
+- Identity spoofing for `identifyexecutor()` & `User Agent`
 - Virtual detachment mode
 
 ## Initialization
