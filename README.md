@@ -9,7 +9,6 @@
 - Automatic update and dependency management
 - Process attachment with focus control
 - Identity spoofing for `identifyexecutor()` & `User Agent`
-- Virtual detachment mode
 
 ## Initialization
 Add the reference to your project and append this at the top of your code
