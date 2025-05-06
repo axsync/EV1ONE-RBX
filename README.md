@@ -1,5 +1,5 @@
 # EV1ONE API Documentation
-**Written by ChatGPT - Im lazy ok?**
+**Documentation written by ChatGPT - Im lazy ok?**
 
 **EV1ONE** is an advanced wrapper around the Xeno executor framework, designed for interfacing with Roblox client processes. This API is built for automation, client management, and script execution with robust version control and attachment routines.
 
