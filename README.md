@@ -26,7 +26,7 @@ Main.Initialize();
 The API loads and initializes the `EV1ONE.dll` wrapper with optional console output.
 
 ```csharp
-API.AttachAPI(bool console = false);
+API.Attach(bool console = false);
 ```
 
 This checks for required files, downloads missing components, validates version integrity, and performs the attach routine if everything is valid.
@@ -52,7 +52,6 @@ API.Detach();
 string pid = API.GetAttachedClientPID();
 ```
 
-## Roblox Process Utilities
 ### Launch Roblox:
 ```csharp
 API.LaunchRoblox();
