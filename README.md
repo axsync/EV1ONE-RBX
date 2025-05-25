@@ -8,7 +8,7 @@
 - Client process discovery
 - Automatic update and dependency management
 - Process attachment with focus control
-- Identity spoofing for `identifyexecutor()` & `User Agent`
+- Identity spoofing for `identifyexecutor` & `User Agent`
 
 ## Initialization
 Add the reference to your project and append this at the top of your code
