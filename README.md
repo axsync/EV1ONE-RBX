@@ -88,6 +88,7 @@ string ver = API.GetAPIVersion();
 ```
 
 ## Build Requirements
+- Release | x64
 - .NET Framework 4.8
 
 ## License
