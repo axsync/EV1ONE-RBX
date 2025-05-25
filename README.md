@@ -68,7 +68,7 @@ bool isRunning = API.IsRobloxOpen();
 ```
 
 ## Update Management
-Automatically handled during `AttachAPI()`
+Automatically handled during `Attach()`
 
 Manual checks:
 ```csharp
