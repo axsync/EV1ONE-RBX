@@ -23,13 +23,13 @@ Call this before using any methods, on Form Load or after InitializeComponent()
 Main.Initialize();
 ```
 
-The API loads and initializes the `EV1ONE.dll` wrapper with optional console output.
+The API loads with optional xeno console window
 
 ```csharp
 API.Attach(bool console = false);
 ```
 
-This checks for required files, downloads missing components, validates version integrity, and performs the attach routine if everything is valid.
+This checks for required files, downloads missing components, validates version integrity, and performs the attach routine if everything is valid
 
 ## Client Management
 ### List attached clients:
@@ -52,7 +52,7 @@ API.Detach();
 string pid = API.GetAttachedClientPID();
 ```
 
-### Launch Roblox:
+### Launch Roblox | Bloxstrap | Fishstrap:
 ```csharp
 API.LaunchRoblox();
 ```
@@ -68,7 +68,7 @@ bool isRunning = API.IsRobloxOpen();
 ```
 
 ## Update Management
-Automatically handled during `AttachAPI()`.
+Automatically handled during `AttachAPI()`
 
 Manual checks:
 ```csharp
