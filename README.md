@@ -31,7 +31,7 @@ API.Attach(bool console = false);
 
 This checks for required files, downloads missing components, validates version integrity, and performs the attach routine if everything is valid
 
-### Execution
+## Execution
 ```csharp
 API.Execute(string script);
 ```
